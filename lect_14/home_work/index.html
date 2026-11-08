@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Налаштування профілю</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="profile-card" id="card">
+    <p class="tag">Налаштування профілю</p>
+    <h1>Профіль користувача</h1>
+    <p id="welcome">Вітаємо, гостю!</p>
+
+    <label for="userName">Ваше ім'я</label>
+    <input id="userName" type="text" placeholder="Введіть ім'я">
+
+    <button id="confirmBtn">Підтвердити</button>
+    <p id="status">Зміни не збережено</p>
+
+    <label for="themeSelect">Кольорова тема</label>
+    <select id="themeSelect">
+        <option value="light">Світла тема</option>
+        <option value="dark">Темна тема</option>
+    </select>
+
+    <button id="detailBtn" class="secondary">Показати додаткову інформацію</button>
+    <p class="hidden" id="details">Ваш обліковий запис успішно активовано, тут ви можете керувати своїми даними.</p>
+</main>
+
+<script src="script.js" defer></script>
+</body>
+</html>
